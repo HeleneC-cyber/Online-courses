@@ -1,0 +1,17 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ul {
+        display: flex;
+        li{
+            padding: 0 20px;
+            @include rem(20);
+            a:hover {
+                color: $color-004;
+            }
+        }
+
+    }
+}

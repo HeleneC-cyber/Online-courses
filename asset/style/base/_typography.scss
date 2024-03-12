@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "OpenSans";
+    src: url("../font/OpenSans-VariableFont_wdth\,wght.ttf")
+      format("truetype");
+  }
+
+@font-face {
+    font-family: "Oswald";
+    src: url("../font/Oswald-Bold.ttf")
+      format("truetype");
+  }
+
+  @font-face {
+    font-family: "Mitr";
+    src: url("../font/Mitr-ExtraLight.ttf")
+      format("truetype");
+  }
+  h1 {
+      font-family: $font-logo;
+      color: $color-logo;
+      font-weight: 900;
+      @include rem(36);
+  }
+
+  h2 {
+    font-family: $font-002;
+    @include rem(60);
+  }
+
+  a {
+    color: $color-001;
+}

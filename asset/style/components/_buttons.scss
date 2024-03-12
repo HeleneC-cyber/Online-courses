@@ -1,0 +1,12 @@
+.btn-text-bloc {
+    padding: 20px 55px;
+    background-color: $color-black;
+    max-width: fit-content;
+    margin-top: 30px;
+    a {
+    color: $color-white;
+    font-weight: 900;
+    @include rem(14);
+    text-transform: uppercase;
+    }
+}

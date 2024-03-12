@@ -1,0 +1,27 @@
+.hero {
+    position: relative;
+    .bg-color {
+        height: 350px;
+        width: 500px;
+        background-color: $color-004;
+        position: absolute;
+        right: 0;
+        top: -50px;
+        z-index: -1;
+    }
+    .img-wrapper {
+        margin-top: 100px;
+        height: 699px;
+        width: 1075px;
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+          }
+        }
+        .text-bloc {
+            position: absolute;
+            bottom: -110px;
+            left: 80px;
+        }
+    }

@@ -1,0 +1,18 @@
+.text-bloc {
+    background-color: $color-white;
+    max-width: 480px;
+    padding: 30px 40px;
+    p {
+        @include rem(20);
+        margin-top: 20px;
+        line-height: 1.8;
+    }
+    :nth-child(3) {
+        @include rem(18);
+        color: $color-003;
+        a{
+            color: $color-003;
+            text-decoration: underline ;
+        }
+    }
+}

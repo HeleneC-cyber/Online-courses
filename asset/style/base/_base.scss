@@ -1,0 +1,12 @@
+html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: $font-001;
+    @include rem(16);
+
+      .custom-container {
+        margin: 0 auto ;
+        width: 1135px;
+      }
+  }

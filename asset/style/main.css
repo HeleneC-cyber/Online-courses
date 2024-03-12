@@ -1,0 +1,134 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "OpenSans";
+  font-size: 1rem;
+}
+body .custom-container {
+  margin: 0 auto;
+  width: 1135px;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("../font/OpenSans-VariableFont_wdth,wght.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Oswald";
+  src: url("../font/Oswald-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Mitr";
+  src: url("../font/Mitr-ExtraLight.ttf") format("truetype");
+}
+h1 {
+  font-family: "Mitr";
+  color: #BFBFBF;
+  font-weight: 900;
+  font-size: 2.25rem;
+}
+
+h2 {
+  font-family: "Oswald";
+  font-size: 3.75rem;
+}
+
+a {
+  color: #111111;
+}
+
+.btn-text-bloc {
+  padding: 20px 55px;
+  background-color: #000000;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  margin-top: 30px;
+}
+.btn-text-bloc a {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+}
+
+.text-bloc {
+  background-color: #ffffff;
+  max-width: 480px;
+  padding: 30px 40px;
+}
+.text-bloc p {
+  font-size: 1.25rem;
+  margin-top: 20px;
+  line-height: 1.8;
+}
+.text-bloc :nth-child(3) {
+  font-size: 1.125rem;
+  color: #808080;
+}
+.text-bloc :nth-child(3) a {
+  color: #808080;
+  text-decoration: underline;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  padding: 0 20px;
+  font-size: 1.25rem;
+}
+nav ul li a:hover {
+  color: #E81A23;
+}
+
+.hero {
+  position: relative;
+}
+.hero .bg-color {
+  height: 350px;
+  width: 500px;
+  background-color: #E81A23;
+  position: absolute;
+  right: 0;
+  top: -50px;
+  z-index: -1;
+}
+.hero .img-wrapper {
+  margin-top: 100px;
+  height: 699px;
+  width: 1075px;
+}
+.hero .img-wrapper img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.hero .text-bloc {
+  position: absolute;
+  bottom: -110px;
+  left: 80px;
+}
+
+* {
+  margin: 0;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+a {
+  text-decoration: none;
+}/*# sourceMappingURL=main.css.map */
