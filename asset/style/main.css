@@ -63,11 +63,11 @@ a {
   margin-top: 20px;
   line-height: 1.8;
 }
-.text-bloc :nth-child(3) {
+.text-bloc:nth-child(3) {
   font-size: 1.125rem;
   color: #808080;
 }
-.text-bloc :nth-child(3) a {
+.text-bloc:nth-child(3) a {
   color: #808080;
   text-decoration: underline;
 }
