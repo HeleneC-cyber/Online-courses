@@ -1,0 +1,1 @@
+Intégration réalisée à partir d'une maquette graphique nicepage
